@@ -1,3 +1,5 @@
+import waterArticleImage from '../assets/images/water-article.jpg';
+
 export interface JournalPost {
   id: string;
   slug: string;
@@ -25,7 +27,7 @@ export const journalPosts: JournalPost[] = [
     date: "2023-10-02",
     excerpt: "Coffee is 98% water. If the water isn't right, nothing else matters.",
     content: "When we talk about coffee, we often talk about the bean, the roast, the origin. But coffee is 98% water. The mineral content of the water in Glasgow is incredibly soft, which is generally excellent for coffee extraction. However, we still run it through a rigorous filtration system to ensure absolute consistency. The pH balance and total dissolved solids (TDS) must be perfectly calibrated to extract the vibrant acidity of our European guest roasters without harshness.",
-    image: "/src/assets/images/coffee_water_filtering_1784526782790.jpg"
+    image: waterArticleImage
   },
   {
     id: "j3",
